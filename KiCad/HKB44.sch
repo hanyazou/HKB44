@@ -1,0 +1,1885 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW0
+U 1 1 5C4637D0
+P 2100 1250
+F 0 "SW0" H 2100 1450 50  0000 C CNN
+F 1 "SW_Push" H 2100 1444 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 2100 1450 50  0001 C CNN
+F 3 "" H 2100 1450 50  0001 C CNN
+	1    2100 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5C4639AE
+P 3300 1250
+F 0 "SW2" H 3300 1450 50  0000 C CNN
+F 1 "SW_Push" H 3300 1444 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 3300 1450 50  0001 C CNN
+F 3 "" H 3300 1450 50  0001 C CNN
+	1    3300 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5C463A34
+P 2700 1250
+F 0 "SW1" H 2700 1450 50  0000 C CNN
+F 1 "SW_Push" H 2700 1444 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 2700 1450 50  0001 C CNN
+F 3 "" H 2700 1450 50  0001 C CNN
+	1    2700 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5C4641C9
+P 3900 1250
+F 0 "SW3" H 3900 1450 50  0000 C CNN
+F 1 "SW_Push" H 3900 1444 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 3900 1450 50  0001 C CNN
+F 3 "" H 3900 1450 50  0001 C CNN
+	1    3900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5C464391
+P 4500 1250
+F 0 "SW4" H 4500 1450 50  0000 C CNN
+F 1 "SW_Push" H 4500 1444 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 4500 1450 50  0001 C CNN
+F 3 "" H 4500 1450 50  0001 C CNN
+	1    4500 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5C4643D9
+P 5100 1250
+F 0 "SW5" H 5100 1450 50  0000 C CNN
+F 1 "SW_Push" H 5100 1444 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 5100 1450 50  0001 C CNN
+F 3 "" H 5100 1450 50  0001 C CNN
+	1    5100 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5C465899
+P 5700 1250
+F 0 "SW6" H 5700 1450 50  0000 C CNN
+F 1 "SW_Push" H 5700 1444 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 5700 1450 50  0001 C CNN
+F 3 "" H 5700 1450 50  0001 C CNN
+	1    5700 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D1
+U 1 1 5C48D356
+P 2300 1350
+F 0 "D1" V 2346 1271 50  0000 R CNN
+F 1 "1N4148" V 2255 1271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2300 1175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2300 1350 50  0001 C CNN
+	1    2300 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D2
+U 1 1 5C48D4B0
+P 2900 1350
+F 0 "D2" V 2946 1271 50  0000 R CNN
+F 1 "1N4148" V 2855 1271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2900 1175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2900 1350 50  0001 C CNN
+	1    2900 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D3
+U 1 1 5C48D540
+P 3500 1350
+F 0 "D3" V 3546 1271 50  0000 R CNN
+F 1 "1N4148" V 3455 1271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3500 1175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3500 1350 50  0001 C CNN
+	1    3500 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D4
+U 1 1 5C48DBB9
+P 4100 1350
+F 0 "D4" V 4146 1271 50  0000 R CNN
+F 1 "1N4148" V 4055 1271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4100 1175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4100 1350 50  0001 C CNN
+	1    4100 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D5
+U 1 1 5C48E02C
+P 4700 1350
+F 0 "D5" V 4746 1271 50  0000 R CNN
+F 1 "1N4148" V 4655 1271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4700 1175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4700 1350 50  0001 C CNN
+	1    4700 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D6
+U 1 1 5C48E0C8
+P 5300 1350
+F 0 "D6" V 5346 1271 50  0000 R CNN
+F 1 "1N4148" V 5255 1271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5300 1175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5300 1350 50  0001 C CNN
+	1    5300 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D7
+U 1 1 5C48E4B6
+P 5900 1350
+F 0 "D7" V 5946 1271 50  0000 R CNN
+F 1 "1N4148" V 5855 1271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5900 1175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5900 1350 50  0001 C CNN
+	1    5900 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 1450 2300 1450
+Connection ~ 2900 1450
+Wire Wire Line
+	2900 1450 3500 1450
+Connection ~ 3500 1450
+Wire Wire Line
+	3500 1450 4100 1450
+Connection ~ 4100 1450
+Wire Wire Line
+	4100 1450 4700 1450
+Connection ~ 4700 1450
+Wire Wire Line
+	4700 1450 5300 1450
+Connection ~ 5300 1450
+Wire Wire Line
+	5300 1450 5900 1450
+Wire Wire Line
+	1900 1250 1900 1850
+Wire Wire Line
+	2500 1250 2500 1850
+Wire Wire Line
+	3100 1250 3100 1850
+Wire Wire Line
+	3700 1250 3700 1850
+Wire Wire Line
+	4300 1250 4300 1850
+Wire Wire Line
+	4900 1250 4900 1850
+Wire Wire Line
+	5500 1250 5500 1850
+NoConn ~ 12000 5300
+Text Notes 7400 7500 0    50   ~ 0
+HKB44
+Text Notes 10600 7650 0    50   ~ 0
+2.0\n
+Text GLabel 1900 1000 1    50   Input ~ 0
+COL0
+Text GLabel 2500 1000 1    50   Input ~ 0
+COL1
+Text GLabel 3700 1000 1    50   Input ~ 0
+COL3
+Text GLabel 3100 1000 1    50   Input ~ 0
+COL2
+Text GLabel 4300 1000 1    50   Input ~ 0
+COL4
+Text GLabel 4900 1000 1    50   Input ~ 0
+COL5
+Text GLabel 5500 1000 1    50   Input ~ 0
+COL6
+Text GLabel 1700 1450 0    50   Input ~ 0
+ROW0
+Text GLabel 1700 2050 0    50   Input ~ 0
+ROW1
+Text GLabel 1700 2650 0    50   Input ~ 0
+ROW2
+Text GLabel 1700 3250 0    50   Input ~ 0
+ROW3
+Text GLabel 1700 3850 0    50   Input ~ 0
+ROW4
+Text GLabel 1700 4450 0    50   Input ~ 0
+ROW5
+Text GLabel 1700 5050 0    50   Input ~ 0
+ROW6
+Text GLabel 1700 5650 0    50   Input ~ 0
+ROW7
+Text GLabel 7900 3900 0    50   Input ~ 0
+COL0
+Text GLabel 9300 4800 2    50   Input ~ 0
+COL1
+Text GLabel 9300 4700 2    50   Input ~ 0
+COL2
+Text GLabel 9300 4600 2    50   Input ~ 0
+COL3
+Text GLabel 9300 4500 2    50   Input ~ 0
+COL4
+Text GLabel 9300 4400 2    50   Input ~ 0
+COL5
+Text GLabel 9300 4300 2    50   Input ~ 0
+COL6
+Text GLabel 7900 5000 0    50   Input ~ 0
+ROW0
+Text GLabel 7900 4900 0    50   Input ~ 0
+ROW1
+Text GLabel 7900 4800 0    50   Input ~ 0
+ROW2
+Text GLabel 7900 4700 0    50   Input ~ 0
+ROW3
+Text GLabel 7900 4600 0    50   Input ~ 0
+ROW4
+Text GLabel 7900 4500 0    50   Input ~ 0
+ROW5
+Text GLabel 7900 4400 0    50   Input ~ 0
+ROW6
+Text GLabel 7900 4300 0    50   Input ~ 0
+ROW7
+$Comp
+L LED:WS2812B LED2
+U 1 1 5CBD880C
+P 2700 6850
+F 0 "LED2" H 3041 6896 50  0000 L CNN
+F 1 "WS2812B" H 3041 6805 50  0000 L CNN
+F 2 "library:LED_WS2812B-PLCC4" H 2750 6550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2800 6475 50  0001 L TNN
+	1    2700 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED3
+U 1 1 5CBD8EFF
+P 3300 6850
+F 0 "LED3" H 3641 6896 50  0000 L CNN
+F 1 "WS2812B" H 3641 6805 50  0000 L CNN
+F 2 "library:LED_WS2812B-PLCC4" H 3350 6550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3400 6475 50  0001 L TNN
+	1    3300 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED4
+U 1 1 5CBD901B
+P 3900 6850
+F 0 "LED4" H 4241 6896 50  0000 L CNN
+F 1 "WS2812B" H 4241 6805 50  0000 L CNN
+F 2 "library:LED_WS2812B-PLCC4" H 3950 6550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4000 6475 50  0001 L TNN
+	1    3900 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED5
+U 1 1 5CBD912D
+P 4500 6850
+F 0 "LED5" H 4841 6896 50  0000 L CNN
+F 1 "WS2812B" H 4841 6805 50  0000 L CNN
+F 2 "library:LED_WS2812B-PLCC4" H 4550 6550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4600 6475 50  0001 L TNN
+	1    4500 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED6
+U 1 1 5CBD9241
+P 5100 6850
+F 0 "LED6" H 5441 6896 50  0000 L CNN
+F 1 "WS2812B" H 5441 6805 50  0000 L CNN
+F 2 "library:LED_WS2812B-PLCC4" H 5150 6550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5200 6475 50  0001 L TNN
+	1    5100 6850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7900 4000 0    50   Input ~ 0
+LED
+Text GLabel 1550 6850 0    50   Input ~ 0
+LED
+$Comp
+L Switch:SW_Push SW100
+U 1 1 5CC0437A
+P 8550 1900
+F 0 "SW100" H 8550 2185 50  0000 C CNN
+F 1 "SW_Push" H 8550 2094 50  0000 C CNN
+F 2 "library:B3U-1000P(OMRON Ultra-small Tactile Switch)" H 8550 2100 50  0001 C CNN
+F 3 "" H 8550 2100 50  0001 C CNN
+	1    8550 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5CC0624E
+P 8750 1900
+F 0 "#PWR0104" H 8750 1650 50  0001 C CNN
+F 1 "GND" V 8755 1772 50  0000 R CNN
+F 2 "" H 8750 1900 50  0001 C CNN
+F 3 "" H 8750 1900 50  0001 C CNN
+	1    8750 1900
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8350 1900 0    50   Input ~ 0
+RST
+Text GLabel 9300 4100 2    50   Input ~ 0
+RST
+Wire Wire Line
+	2150 6850 2400 6850
+Wire Wire Line
+	1850 6550 2700 6550
+Connection ~ 2700 6550
+Wire Wire Line
+	2700 6550 3300 6550
+Connection ~ 3300 6550
+Wire Wire Line
+	3300 6550 3900 6550
+Connection ~ 3900 6550
+Wire Wire Line
+	3900 6550 4500 6550
+Connection ~ 4500 6550
+Wire Wire Line
+	4500 6550 5100 6550
+Wire Wire Line
+	5100 7150 4500 7150
+Connection ~ 2700 7150
+Wire Wire Line
+	2700 7150 1850 7150
+Connection ~ 3300 7150
+Wire Wire Line
+	3300 7150 2700 7150
+Connection ~ 3900 7150
+Wire Wire Line
+	3900 7150 3300 7150
+Connection ~ 4500 7150
+Wire Wire Line
+	4500 7150 3900 7150
+Connection ~ 1850 6550
+$Comp
+L LED:WS2812B LED7
+U 1 1 5CC28013
+P 5700 6850
+F 0 "LED7" H 6041 6896 50  0000 L CNN
+F 1 "WS2812B" H 6041 6805 50  0000 L CNN
+F 2 "library:LED_WS2812B-PLCC4" H 5750 6550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5800 6475 50  0001 L TNN
+	1    5700 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 6550 5700 6550
+Connection ~ 5100 6550
+Wire Wire Line
+	5700 7150 5100 7150
+Connection ~ 5100 7150
+Text GLabel 9300 5000 2    50   Input ~ 0
+SDA
+Text GLabel 9300 4900 2    50   Input ~ 0
+SCL
+Text GLabel 8450 2500 0    50   Input ~ 0
+SDA
+Text GLabel 8450 2600 0    50   Input ~ 0
+SCL
+Text GLabel 8450 2800 0    50   Input ~ 0
+VCC
+Text GLabel 8450 2700 0    50   Input ~ 0
+GND
+$Comp
+L Connector:Conn_01x04_Female J1
+U 1 1 5CCBBE58
+P 8650 2600
+F 0 "J1" H 8677 2576 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 8677 2485 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8650 2600 50  0001 C CNN
+F 3 "~" H 8650 2600 50  0001 C CNN
+	1    8650 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 1450
+Wire Wire Line
+	2300 1450 2900 1450
+$Comp
+L Switch:SW_Push SW10
+U 1 1 5EB55D80
+P 2100 1850
+F 0 "SW10" H 2100 2050 50  0000 C CNN
+F 1 "SW_Push" H 2100 2044 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 2100 2050 50  0001 C CNN
+F 3 "" H 2100 2050 50  0001 C CNN
+	1    2100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW12
+U 1 1 5EB55D8A
+P 3300 1850
+F 0 "SW12" H 3300 2050 50  0000 C CNN
+F 1 "SW_Push" H 3300 2044 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 3300 2050 50  0001 C CNN
+F 3 "" H 3300 2050 50  0001 C CNN
+	1    3300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW11
+U 1 1 5EB55D94
+P 2700 1850
+F 0 "SW11" H 2700 2050 50  0000 C CNN
+F 1 "SW_Push" H 2700 2044 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 2700 2050 50  0001 C CNN
+F 3 "" H 2700 2050 50  0001 C CNN
+	1    2700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW13
+U 1 1 5EB55D9E
+P 3900 1850
+F 0 "SW13" H 3900 2050 50  0000 C CNN
+F 1 "SW_Push" H 3900 2044 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 3900 2050 50  0001 C CNN
+F 3 "" H 3900 2050 50  0001 C CNN
+	1    3900 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW14
+U 1 1 5EB55DA8
+P 4500 1850
+F 0 "SW14" H 4500 2050 50  0000 C CNN
+F 1 "SW_Push" H 4500 2044 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 4500 2050 50  0001 C CNN
+F 3 "" H 4500 2050 50  0001 C CNN
+	1    4500 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW15
+U 1 1 5EB55DB2
+P 5100 1850
+F 0 "SW15" H 5100 2050 50  0000 C CNN
+F 1 "SW_Push" H 5100 2044 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 5100 2050 50  0001 C CNN
+F 3 "" H 5100 2050 50  0001 C CNN
+	1    5100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW16
+U 1 1 5EB55DBC
+P 5700 1850
+F 0 "SW16" H 5700 2050 50  0000 C CNN
+F 1 "SW_Push" H 5700 2044 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 5700 2050 50  0001 C CNN
+F 3 "" H 5700 2050 50  0001 C CNN
+	1    5700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D8
+U 1 1 5EB55DC6
+P 2300 1950
+F 0 "D8" V 2346 1871 50  0000 R CNN
+F 1 "1N4148" V 2255 1871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2300 1775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2300 1950 50  0001 C CNN
+	1    2300 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D9
+U 1 1 5EB55DD0
+P 2900 1950
+F 0 "D9" V 2946 1871 50  0000 R CNN
+F 1 "1N4148" V 2855 1871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2900 1775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2900 1950 50  0001 C CNN
+	1    2900 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D10
+U 1 1 5EB55DDA
+P 3500 1950
+F 0 "D10" V 3546 1871 50  0000 R CNN
+F 1 "1N4148" V 3455 1871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3500 1775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3500 1950 50  0001 C CNN
+	1    3500 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D11
+U 1 1 5EB55DE4
+P 4100 1950
+F 0 "D11" V 4146 1871 50  0000 R CNN
+F 1 "1N4148" V 4055 1871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4100 1775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4100 1950 50  0001 C CNN
+	1    4100 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D12
+U 1 1 5EB55DEE
+P 4700 1950
+F 0 "D12" V 4746 1871 50  0000 R CNN
+F 1 "1N4148" V 4655 1871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4700 1775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4700 1950 50  0001 C CNN
+	1    4700 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D13
+U 1 1 5EB55DF8
+P 5300 1950
+F 0 "D13" V 5346 1871 50  0000 R CNN
+F 1 "1N4148" V 5255 1871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5300 1775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5300 1950 50  0001 C CNN
+	1    5300 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D14
+U 1 1 5EB55E02
+P 5900 1950
+F 0 "D14" V 5946 1871 50  0000 R CNN
+F 1 "1N4148" V 5855 1871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5900 1775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5900 1950 50  0001 C CNN
+	1    5900 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 2050 2300 2050
+Connection ~ 2900 2050
+Wire Wire Line
+	2900 2050 3500 2050
+Connection ~ 3500 2050
+Wire Wire Line
+	3500 2050 4100 2050
+Connection ~ 4100 2050
+Wire Wire Line
+	4100 2050 4700 2050
+Connection ~ 4700 2050
+Wire Wire Line
+	4700 2050 5300 2050
+Connection ~ 5300 2050
+Wire Wire Line
+	5300 2050 5900 2050
+Wire Wire Line
+	1900 1850 1900 2450
+Wire Wire Line
+	2500 1850 2500 2450
+Wire Wire Line
+	3100 1850 3100 2450
+Wire Wire Line
+	3700 1850 3700 2450
+Wire Wire Line
+	4300 1850 4300 2450
+Wire Wire Line
+	4900 1850 4900 2450
+Wire Wire Line
+	5500 1850 5500 2450
+Connection ~ 2300 2050
+Wire Wire Line
+	2300 2050 2900 2050
+Connection ~ 1900 1850
+Connection ~ 2500 1850
+Connection ~ 3100 1850
+Connection ~ 3700 1850
+Connection ~ 4300 1850
+Connection ~ 4900 1850
+Connection ~ 5500 1850
+$Comp
+L Switch:SW_Push SW20
+U 1 1 5EB5C697
+P 2100 2450
+F 0 "SW20" H 2100 2650 50  0000 C CNN
+F 1 "SW_Push" H 2100 2644 50  0001 C CNN
+F 2 "HKB44:MX_PCB_175H" H 2100 2650 50  0001 C CNN
+F 3 "" H 2100 2650 50  0001 C CNN
+	1    2100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW22
+U 1 1 5EB5C6A1
+P 3300 2450
+F 0 "SW22" H 3300 2650 50  0000 C CNN
+F 1 "SW_Push" H 3300 2644 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 3300 2650 50  0001 C CNN
+F 3 "" H 3300 2650 50  0001 C CNN
+	1    3300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW21
+U 1 1 5EB5C6AB
+P 2700 2450
+F 0 "SW21" H 2700 2650 50  0000 C CNN
+F 1 "SW_Push" H 2700 2644 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 2700 2650 50  0001 C CNN
+F 3 "" H 2700 2650 50  0001 C CNN
+	1    2700 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW23
+U 1 1 5EB5C6B5
+P 3900 2450
+F 0 "SW23" H 3900 2650 50  0000 C CNN
+F 1 "SW_Push" H 3900 2644 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 3900 2650 50  0001 C CNN
+F 3 "" H 3900 2650 50  0001 C CNN
+	1    3900 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW24
+U 1 1 5EB5C6BF
+P 4500 2450
+F 0 "SW24" H 4500 2650 50  0000 C CNN
+F 1 "SW_Push" H 4500 2644 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 4500 2650 50  0001 C CNN
+F 3 "" H 4500 2650 50  0001 C CNN
+	1    4500 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW26
+U 1 1 5EB5C6D3
+P 5700 2450
+F 0 "SW26" H 5700 2650 50  0000 C CNN
+F 1 "SW_Push" H 5700 2644 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 5700 2650 50  0001 C CNN
+F 3 "" H 5700 2650 50  0001 C CNN
+	1    5700 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D15
+U 1 1 5EB5C6DD
+P 2300 2550
+F 0 "D15" V 2346 2471 50  0000 R CNN
+F 1 "1N4148" V 2255 2471 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2300 2375 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2300 2550 50  0001 C CNN
+	1    2300 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D16
+U 1 1 5EB5C6E7
+P 2900 2550
+F 0 "D16" V 2946 2471 50  0000 R CNN
+F 1 "1N4148" V 2855 2471 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2900 2375 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2900 2550 50  0001 C CNN
+	1    2900 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D17
+U 1 1 5EB5C6F1
+P 3500 2550
+F 0 "D17" V 3546 2471 50  0000 R CNN
+F 1 "1N4148" V 3455 2471 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3500 2375 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3500 2550 50  0001 C CNN
+	1    3500 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D18
+U 1 1 5EB5C6FB
+P 4100 2550
+F 0 "D18" V 4146 2471 50  0000 R CNN
+F 1 "1N4148" V 4055 2471 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4100 2375 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4100 2550 50  0001 C CNN
+	1    4100 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D19
+U 1 1 5EB5C705
+P 4700 2550
+F 0 "D19" V 4746 2471 50  0000 R CNN
+F 1 "1N4148" V 4655 2471 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4700 2375 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4700 2550 50  0001 C CNN
+	1    4700 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D20
+U 1 1 5EB5C70F
+P 5300 2550
+F 0 "D20" V 5346 2471 50  0000 R CNN
+F 1 "1N4148" V 5255 2471 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5300 2375 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5300 2550 50  0001 C CNN
+	1    5300 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D21
+U 1 1 5EB5C719
+P 5900 2550
+F 0 "D21" V 5946 2471 50  0000 R CNN
+F 1 "1N4148" V 5855 2471 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5900 2375 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5900 2550 50  0001 C CNN
+	1    5900 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 2650 2300 2650
+Connection ~ 2900 2650
+Wire Wire Line
+	2900 2650 3500 2650
+Connection ~ 3500 2650
+Wire Wire Line
+	3500 2650 4100 2650
+Connection ~ 4100 2650
+Wire Wire Line
+	4100 2650 4700 2650
+Connection ~ 4700 2650
+Wire Wire Line
+	4700 2650 5300 2650
+Connection ~ 5300 2650
+Wire Wire Line
+	5300 2650 5900 2650
+Wire Wire Line
+	1900 2450 1900 3050
+Wire Wire Line
+	2500 2450 2500 3050
+Wire Wire Line
+	3100 2450 3100 3050
+Wire Wire Line
+	3700 2450 3700 3050
+Wire Wire Line
+	4300 2450 4300 3050
+Wire Wire Line
+	4900 2450 4900 3050
+Wire Wire Line
+	5500 2450 5500 3050
+Connection ~ 2300 2650
+Wire Wire Line
+	2300 2650 2900 2650
+$Comp
+L Switch:SW_Push SW30
+U 1 1 5EB5C737
+P 2100 3050
+F 0 "SW30" H 2100 3250 50  0000 C CNN
+F 1 "SW_Push" H 2100 3244 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 2100 3250 50  0001 C CNN
+F 3 "" H 2100 3250 50  0001 C CNN
+	1    2100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW32
+U 1 1 5EB5C741
+P 3300 3050
+F 0 "SW32" H 3300 3250 50  0000 C CNN
+F 1 "SW_Push" H 3300 3244 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 3300 3250 50  0001 C CNN
+F 3 "" H 3300 3250 50  0001 C CNN
+	1    3300 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW31
+U 1 1 5EB5C74B
+P 2700 3050
+F 0 "SW31" H 2700 3250 50  0000 C CNN
+F 1 "SW_Push" H 2700 3244 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 2700 3250 50  0001 C CNN
+F 3 "" H 2700 3250 50  0001 C CNN
+	1    2700 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW33
+U 1 1 5EB5C755
+P 3900 3050
+F 0 "SW33" H 3900 3250 50  0000 C CNN
+F 1 "SW_Push" H 3900 3244 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 3900 3250 50  0001 C CNN
+F 3 "" H 3900 3250 50  0001 C CNN
+	1    3900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW34
+U 1 1 5EB5C75F
+P 4500 3050
+F 0 "SW34" H 4500 3250 50  0000 C CNN
+F 1 "SW_Push" H 4500 3244 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 4500 3250 50  0001 C CNN
+F 3 "" H 4500 3250 50  0001 C CNN
+	1    4500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW35
+U 1 1 5EB5C769
+P 5100 3050
+F 0 "SW35" H 5100 3250 50  0000 C CNN
+F 1 "SW_Push" H 5100 3244 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 5100 3250 50  0001 C CNN
+F 3 "" H 5100 3250 50  0001 C CNN
+	1    5100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW36
+U 1 1 5EB5C773
+P 5700 3050
+F 0 "SW36" H 5700 3250 50  0000 C CNN
+F 1 "SW_Push" H 5700 3244 50  0001 C CNN
+F 2 "HKB44:MX_PCB_225H" H 5700 3250 50  0001 C CNN
+F 3 "" H 5700 3250 50  0001 C CNN
+	1    5700 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D22
+U 1 1 5EB5C77D
+P 2300 3150
+F 0 "D22" V 2346 3071 50  0000 R CNN
+F 1 "1N4148" V 2255 3071 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2300 2975 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2300 3150 50  0001 C CNN
+	1    2300 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D23
+U 1 1 5EB5C787
+P 2900 3150
+F 0 "D23" V 2946 3071 50  0000 R CNN
+F 1 "1N4148" V 2855 3071 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2900 2975 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2900 3150 50  0001 C CNN
+	1    2900 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D24
+U 1 1 5EB5C791
+P 3500 3150
+F 0 "D24" V 3546 3071 50  0000 R CNN
+F 1 "1N4148" V 3455 3071 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3500 2975 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3500 3150 50  0001 C CNN
+	1    3500 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D25
+U 1 1 5EB5C79B
+P 4100 3150
+F 0 "D25" V 4146 3071 50  0000 R CNN
+F 1 "1N4148" V 4055 3071 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4100 2975 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4100 3150 50  0001 C CNN
+	1    4100 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D26
+U 1 1 5EB5C7A5
+P 4700 3150
+F 0 "D26" V 4746 3071 50  0000 R CNN
+F 1 "1N4148" V 4655 3071 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4700 2975 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4700 3150 50  0001 C CNN
+	1    4700 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D27
+U 1 1 5EB5C7AF
+P 5300 3150
+F 0 "D27" V 5346 3071 50  0000 R CNN
+F 1 "1N4148" V 5255 3071 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5300 2975 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5300 3150 50  0001 C CNN
+	1    5300 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D28
+U 1 1 5EB5C7B9
+P 5900 3150
+F 0 "D28" V 5946 3071 50  0000 R CNN
+F 1 "1N4148" V 5855 3071 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5900 2975 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5900 3150 50  0001 C CNN
+	1    5900 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 3250 2300 3250
+Connection ~ 2900 3250
+Wire Wire Line
+	2900 3250 3500 3250
+Connection ~ 3500 3250
+Wire Wire Line
+	3500 3250 4100 3250
+Connection ~ 4100 3250
+Wire Wire Line
+	4100 3250 4700 3250
+Connection ~ 4700 3250
+Wire Wire Line
+	4700 3250 5300 3250
+Connection ~ 5300 3250
+Wire Wire Line
+	5300 3250 5900 3250
+Wire Wire Line
+	1900 3050 1900 3650
+Wire Wire Line
+	2500 3050 2500 3650
+Wire Wire Line
+	3100 3050 3100 3650
+Wire Wire Line
+	3700 3050 3700 3650
+Wire Wire Line
+	4300 3050 4300 3650
+Wire Wire Line
+	4900 3050 4900 3650
+Wire Wire Line
+	5500 3050 5500 3650
+Connection ~ 2300 3250
+Wire Wire Line
+	2300 3250 2900 3250
+Connection ~ 1900 3050
+Connection ~ 2500 3050
+Connection ~ 3100 3050
+Connection ~ 3700 3050
+Connection ~ 4300 3050
+Connection ~ 4900 3050
+Connection ~ 5500 3050
+Connection ~ 1900 2450
+Connection ~ 2500 2450
+Connection ~ 3100 2450
+Connection ~ 3700 2450
+Connection ~ 4300 2450
+Connection ~ 4900 2450
+Connection ~ 5500 2450
+$Comp
+L Switch:SW_Push SW40
+U 1 1 5EB884AC
+P 2100 3650
+F 0 "SW40" H 2100 3850 50  0000 C CNN
+F 1 "SW_Push" H 2100 3844 50  0001 C CNN
+F 2 "HKB44:MX_PCB_225H" H 2100 3850 50  0001 C CNN
+F 3 "" H 2100 3850 50  0001 C CNN
+	1    2100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW42
+U 1 1 5EB884B6
+P 3300 3650
+F 0 "SW42" H 3300 3850 50  0000 C CNN
+F 1 "SW_Push" H 3300 3844 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 3300 3850 50  0001 C CNN
+F 3 "" H 3300 3850 50  0001 C CNN
+	1    3300 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW41
+U 1 1 5EB884C0
+P 2700 3650
+F 0 "SW41" H 2700 3850 50  0000 C CNN
+F 1 "SW_Push" H 2700 3844 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 2700 3850 50  0001 C CNN
+F 3 "" H 2700 3850 50  0001 C CNN
+	1    2700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW43
+U 1 1 5EB884CA
+P 3900 3650
+F 0 "SW43" H 3900 3850 50  0000 C CNN
+F 1 "SW_Push" H 3900 3844 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 3900 3850 50  0001 C CNN
+F 3 "" H 3900 3850 50  0001 C CNN
+	1    3900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW44
+U 1 1 5EB884D4
+P 4500 3650
+F 0 "SW44" H 4500 3850 50  0000 C CNN
+F 1 "SW_Push" H 4500 3844 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 4500 3850 50  0001 C CNN
+F 3 "" H 4500 3850 50  0001 C CNN
+	1    4500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW45
+U 1 1 5EB884DE
+P 5100 3650
+F 0 "SW45" H 5100 3850 50  0000 C CNN
+F 1 "SW_Push" H 5100 3844 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 5100 3850 50  0001 C CNN
+F 3 "" H 5100 3850 50  0001 C CNN
+	1    5100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW46
+U 1 1 5EB884E8
+P 5700 3650
+F 0 "SW46" H 5700 3850 50  0000 C CNN
+F 1 "SW_Push" H 5700 3844 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 5700 3850 50  0001 C CNN
+F 3 "" H 5700 3850 50  0001 C CNN
+	1    5700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D29
+U 1 1 5EB884F2
+P 2300 3750
+F 0 "D29" V 2346 3671 50  0000 R CNN
+F 1 "1N4148" V 2255 3671 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2300 3575 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2300 3750 50  0001 C CNN
+	1    2300 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D30
+U 1 1 5EB884FC
+P 2900 3750
+F 0 "D30" V 2946 3671 50  0000 R CNN
+F 1 "1N4148" V 2855 3671 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2900 3575 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2900 3750 50  0001 C CNN
+	1    2900 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D31
+U 1 1 5EB88506
+P 3500 3750
+F 0 "D31" V 3546 3671 50  0000 R CNN
+F 1 "1N4148" V 3455 3671 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3500 3575 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3500 3750 50  0001 C CNN
+	1    3500 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D32
+U 1 1 5EB88510
+P 4100 3750
+F 0 "D32" V 4146 3671 50  0000 R CNN
+F 1 "1N4148" V 4055 3671 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4100 3575 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4100 3750 50  0001 C CNN
+	1    4100 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D33
+U 1 1 5EB8851A
+P 4700 3750
+F 0 "D33" V 4746 3671 50  0000 R CNN
+F 1 "1N4148" V 4655 3671 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4700 3575 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4700 3750 50  0001 C CNN
+	1    4700 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D34
+U 1 1 5EB88524
+P 5300 3750
+F 0 "D34" V 5346 3671 50  0000 R CNN
+F 1 "1N4148" V 5255 3671 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5300 3575 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5300 3750 50  0001 C CNN
+	1    5300 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D35
+U 1 1 5EB8852E
+P 5900 3750
+F 0 "D35" V 5946 3671 50  0000 R CNN
+F 1 "1N4148" V 5855 3671 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5900 3575 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5900 3750 50  0001 C CNN
+	1    5900 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 3850 2300 3850
+Connection ~ 2900 3850
+Wire Wire Line
+	2900 3850 3500 3850
+Connection ~ 3500 3850
+Wire Wire Line
+	3500 3850 4100 3850
+Connection ~ 4100 3850
+Wire Wire Line
+	4100 3850 4700 3850
+Connection ~ 4700 3850
+Wire Wire Line
+	4700 3850 5300 3850
+Connection ~ 5300 3850
+Wire Wire Line
+	5300 3850 5900 3850
+Wire Wire Line
+	1900 3650 1900 4250
+Wire Wire Line
+	2500 3650 2500 4250
+Wire Wire Line
+	3100 3650 3100 4250
+Wire Wire Line
+	3700 3650 3700 4250
+Wire Wire Line
+	4300 3650 4300 4250
+Wire Wire Line
+	4900 3650 4900 4250
+Wire Wire Line
+	5500 3650 5500 4250
+Connection ~ 2300 3850
+Wire Wire Line
+	2300 3850 2900 3850
+$Comp
+L Switch:SW_Push SW50
+U 1 1 5EB8854C
+P 2100 4250
+F 0 "SW50" H 2100 4450 50  0000 C CNN
+F 1 "SW_Push" H 2100 4444 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 2100 4450 50  0001 C CNN
+F 3 "" H 2100 4450 50  0001 C CNN
+	1    2100 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW52
+U 1 1 5EB88556
+P 3300 4250
+F 0 "SW52" H 3300 4450 50  0000 C CNN
+F 1 "SW_Push" H 3300 4444 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 3300 4450 50  0001 C CNN
+F 3 "" H 3300 4450 50  0001 C CNN
+	1    3300 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW51
+U 1 1 5EB88560
+P 2700 4250
+F 0 "SW51" H 2700 4450 50  0000 C CNN
+F 1 "SW_Push" H 2700 4444 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 2700 4450 50  0001 C CNN
+F 3 "" H 2700 4450 50  0001 C CNN
+	1    2700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW53
+U 1 1 5EB8856A
+P 3900 4250
+F 0 "SW53" H 3900 4450 50  0000 C CNN
+F 1 "SW_Push" H 3900 4444 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 3900 4450 50  0001 C CNN
+F 3 "" H 3900 4450 50  0001 C CNN
+	1    3900 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW54
+U 1 1 5EB88574
+P 4500 4250
+F 0 "SW54" H 4500 4450 50  0000 C CNN
+F 1 "SW_Push" H 4500 4444 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 4500 4450 50  0001 C CNN
+F 3 "" H 4500 4450 50  0001 C CNN
+	1    4500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW55
+U 1 1 5EB8857E
+P 5100 4250
+F 0 "SW55" H 5100 4450 50  0000 C CNN
+F 1 "SW_Push" H 5100 4444 50  0001 C CNN
+F 2 "HKB44:MX_PCB_275H" H 5100 4450 50  0001 C CNN
+F 3 "" H 5100 4450 50  0001 C CNN
+	1    5100 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW56
+U 1 1 5EB88588
+P 5700 4250
+F 0 "SW56" H 5700 4450 50  0000 C CNN
+F 1 "SW_Push" H 5700 4444 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 5700 4450 50  0001 C CNN
+F 3 "" H 5700 4450 50  0001 C CNN
+	1    5700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D36
+U 1 1 5EB88592
+P 2300 4350
+F 0 "D36" V 2346 4271 50  0000 R CNN
+F 1 "1N4148" V 2255 4271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2300 4175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2300 4350 50  0001 C CNN
+	1    2300 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D37
+U 1 1 5EB8859C
+P 2900 4350
+F 0 "D37" V 2946 4271 50  0000 R CNN
+F 1 "1N4148" V 2855 4271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2900 4175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2900 4350 50  0001 C CNN
+	1    2900 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D38
+U 1 1 5EB885A6
+P 3500 4350
+F 0 "D38" V 3546 4271 50  0000 R CNN
+F 1 "1N4148" V 3455 4271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3500 4175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3500 4350 50  0001 C CNN
+	1    3500 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D39
+U 1 1 5EB885B0
+P 4100 4350
+F 0 "D39" V 4146 4271 50  0000 R CNN
+F 1 "1N4148" V 4055 4271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4100 4175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4100 4350 50  0001 C CNN
+	1    4100 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D40
+U 1 1 5EB885BA
+P 4700 4350
+F 0 "D40" V 4746 4271 50  0000 R CNN
+F 1 "1N4148" V 4655 4271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4700 4175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4700 4350 50  0001 C CNN
+	1    4700 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D41
+U 1 1 5EB885C4
+P 5300 4350
+F 0 "D41" V 5346 4271 50  0000 R CNN
+F 1 "1N4148" V 5255 4271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5300 4175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5300 4350 50  0001 C CNN
+	1    5300 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D42
+U 1 1 5EB885CE
+P 5900 4350
+F 0 "D42" V 5946 4271 50  0000 R CNN
+F 1 "1N4148" V 5855 4271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5900 4175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5900 4350 50  0001 C CNN
+	1    5900 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 4450 2300 4450
+Connection ~ 2900 4450
+Wire Wire Line
+	2900 4450 3500 4450
+Connection ~ 3500 4450
+Wire Wire Line
+	3500 4450 4100 4450
+Connection ~ 4100 4450
+Wire Wire Line
+	4100 4450 4700 4450
+Connection ~ 4700 4450
+Wire Wire Line
+	4700 4450 5300 4450
+Connection ~ 5300 4450
+Wire Wire Line
+	5300 4450 5900 4450
+Wire Wire Line
+	1900 4250 1900 4850
+Wire Wire Line
+	2500 4250 2500 4850
+Wire Wire Line
+	3100 4250 3100 4850
+Wire Wire Line
+	3700 4250 3700 4850
+Wire Wire Line
+	4300 4250 4300 4850
+Wire Wire Line
+	4900 4250 4900 4850
+Wire Wire Line
+	5500 4250 5500 4850
+Connection ~ 2300 4450
+Wire Wire Line
+	2300 4450 2900 4450
+Connection ~ 1900 4250
+Connection ~ 2500 4250
+Connection ~ 3100 4250
+Connection ~ 3700 4250
+Connection ~ 4300 4250
+Connection ~ 4900 4250
+Connection ~ 5500 4250
+$Comp
+L Switch:SW_Push SW60
+U 1 1 5EB885F3
+P 2100 4850
+F 0 "SW60" H 2100 5050 50  0000 C CNN
+F 1 "SW_Push" H 2100 5044 50  0001 C CNN
+F 2 "HKB44:MX_PCB_125H" H 2100 5050 50  0001 C CNN
+F 3 "" H 2100 5050 50  0001 C CNN
+	1    2100 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW62
+U 1 1 5EB885FD
+P 3300 4850
+F 0 "SW62" H 3300 5050 50  0000 C CNN
+F 1 "SW_Push" H 3300 5044 50  0001 C CNN
+F 2 "HKB44:MX_PCB_125H" H 3300 5050 50  0001 C CNN
+F 3 "" H 3300 5050 50  0001 C CNN
+	1    3300 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW61
+U 1 1 5EB88607
+P 2700 4850
+F 0 "SW61" H 2700 5050 50  0000 C CNN
+F 1 "SW_Push" H 2700 5044 50  0001 C CNN
+F 2 "HKB44:MX_PCB_125H" H 2700 5050 50  0001 C CNN
+F 3 "" H 2700 5050 50  0001 C CNN
+	1    2700 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW63
+U 1 1 5EB88611
+P 3900 4850
+F 0 "SW63" H 3900 5050 50  0000 C CNN
+F 1 "SW_Push" H 3900 5044 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 3900 5050 50  0001 C CNN
+F 3 "" H 3900 5050 50  0001 C CNN
+	1    3900 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW64
+U 1 1 5EB8861B
+P 4500 4850
+F 0 "SW64" H 4500 5050 50  0000 C CNN
+F 1 "SW_Push" H 4500 5044 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 4500 5050 50  0001 C CNN
+F 3 "" H 4500 5050 50  0001 C CNN
+	1    4500 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW65
+U 1 1 5EB88625
+P 5100 4850
+F 0 "SW65" H 5100 5050 50  0000 C CNN
+F 1 "SW_Push" H 5100 5044 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 5100 5050 50  0001 C CNN
+F 3 "" H 5100 5050 50  0001 C CNN
+	1    5100 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW66
+U 1 1 5EB8862F
+P 5700 4850
+F 0 "SW66" H 5700 5050 50  0000 C CNN
+F 1 "SW_Push" H 5700 5044 50  0001 C CNN
+F 2 "HKB44:MX_PCB_625H" H 5700 5050 50  0001 C CNN
+F 3 "" H 5700 5050 50  0001 C CNN
+	1    5700 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D43
+U 1 1 5EB88639
+P 2300 4950
+F 0 "D43" V 2346 4871 50  0000 R CNN
+F 1 "1N4148" V 2255 4871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2300 4775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2300 4950 50  0001 C CNN
+	1    2300 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D44
+U 1 1 5EB88643
+P 2900 4950
+F 0 "D44" V 2946 4871 50  0000 R CNN
+F 1 "1N4148" V 2855 4871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2900 4775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2900 4950 50  0001 C CNN
+	1    2900 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D45
+U 1 1 5EB8864D
+P 3500 4950
+F 0 "D45" V 3546 4871 50  0000 R CNN
+F 1 "1N4148" V 3455 4871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3500 4775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3500 4950 50  0001 C CNN
+	1    3500 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D46
+U 1 1 5EB88657
+P 4100 4950
+F 0 "D46" V 4146 4871 50  0000 R CNN
+F 1 "1N4148" V 4055 4871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4100 4775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4100 4950 50  0001 C CNN
+	1    4100 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D47
+U 1 1 5EB88661
+P 4700 4950
+F 0 "D47" V 4746 4871 50  0000 R CNN
+F 1 "1N4148" V 4655 4871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4700 4775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4700 4950 50  0001 C CNN
+	1    4700 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D48
+U 1 1 5EB8866B
+P 5300 4950
+F 0 "D48" V 5346 4871 50  0000 R CNN
+F 1 "1N4148" V 5255 4871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5300 4775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5300 4950 50  0001 C CNN
+	1    5300 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D49
+U 1 1 5EB88675
+P 5900 4950
+F 0 "D49" V 5946 4871 50  0000 R CNN
+F 1 "1N4148" V 5855 4871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5900 4775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5900 4950 50  0001 C CNN
+	1    5900 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 5050 2300 5050
+Connection ~ 2900 5050
+Wire Wire Line
+	2900 5050 3500 5050
+Connection ~ 3500 5050
+Wire Wire Line
+	3500 5050 4100 5050
+Connection ~ 4100 5050
+Wire Wire Line
+	4100 5050 4700 5050
+Connection ~ 4700 5050
+Wire Wire Line
+	4700 5050 5300 5050
+Connection ~ 5300 5050
+Wire Wire Line
+	5300 5050 5900 5050
+Wire Wire Line
+	1900 4850 1900 5450
+Wire Wire Line
+	2500 4850 2500 5450
+Wire Wire Line
+	3100 4850 3100 5450
+Wire Wire Line
+	3700 4850 3700 5450
+Wire Wire Line
+	4300 4850 4300 5450
+Wire Wire Line
+	4900 4850 4900 5450
+Wire Wire Line
+	5500 4850 5500 5450
+Connection ~ 2300 5050
+Wire Wire Line
+	2300 5050 2900 5050
+$Comp
+L Switch:SW_Push SW70
+U 1 1 5EB88693
+P 2100 5450
+F 0 "SW70" H 2100 5650 50  0000 C CNN
+F 1 "SW_Push" H 2100 5644 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 2100 5650 50  0001 C CNN
+F 3 "" H 2100 5650 50  0001 C CNN
+	1    2100 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW72
+U 1 1 5EB8869D
+P 3300 5450
+F 0 "SW72" H 3300 5650 50  0000 C CNN
+F 1 "SW_Push" H 3300 5644 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 3300 5650 50  0001 C CNN
+F 3 "" H 3300 5650 50  0001 C CNN
+	1    3300 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW71
+U 1 1 5EB886A7
+P 2700 5450
+F 0 "SW71" H 2700 5650 50  0000 C CNN
+F 1 "SW_Push" H 2700 5644 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 2700 5650 50  0001 C CNN
+F 3 "" H 2700 5650 50  0001 C CNN
+	1    2700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW73
+U 1 1 5EB886B1
+P 3900 5450
+F 0 "SW73" H 3900 5650 50  0000 C CNN
+F 1 "SW_Push" H 3900 5644 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 3900 5650 50  0001 C CNN
+F 3 "" H 3900 5650 50  0001 C CNN
+	1    3900 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW74
+U 1 1 5EB886BB
+P 4500 5450
+F 0 "SW74" H 4500 5650 50  0000 C CNN
+F 1 "SW_Push" H 4500 5644 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 4500 5650 50  0001 C CNN
+F 3 "" H 4500 5650 50  0001 C CNN
+	1    4500 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW75
+U 1 1 5EB886C5
+P 5100 5450
+F 0 "SW75" H 5100 5650 50  0000 C CNN
+F 1 "SW_Push" H 5100 5644 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 5100 5650 50  0001 C CNN
+F 3 "" H 5100 5650 50  0001 C CNN
+	1    5100 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW76
+U 1 1 5EB886CF
+P 5700 5450
+F 0 "SW76" H 5700 5650 50  0000 C CNN
+F 1 "SW_Push" H 5700 5644 50  0001 C CNN
+F 2 "HKB44:MX_PCB_125H" H 5700 5650 50  0001 C CNN
+F 3 "" H 5700 5650 50  0001 C CNN
+	1    5700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D50
+U 1 1 5EB886D9
+P 2300 5550
+F 0 "D50" V 2346 5471 50  0000 R CNN
+F 1 "1N4148" V 2255 5471 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2300 5375 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2300 5550 50  0001 C CNN
+	1    2300 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D51
+U 1 1 5EB886E3
+P 2900 5550
+F 0 "D51" V 2946 5471 50  0000 R CNN
+F 1 "1N4148" V 2855 5471 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2900 5375 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2900 5550 50  0001 C CNN
+	1    2900 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D52
+U 1 1 5EB886ED
+P 3500 5550
+F 0 "D52" V 3546 5471 50  0000 R CNN
+F 1 "1N4148" V 3455 5471 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3500 5375 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3500 5550 50  0001 C CNN
+	1    3500 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D53
+U 1 1 5EB886F7
+P 4100 5550
+F 0 "D53" V 4146 5471 50  0000 R CNN
+F 1 "1N4148" V 4055 5471 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4100 5375 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4100 5550 50  0001 C CNN
+	1    4100 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D54
+U 1 1 5EB88701
+P 4700 5550
+F 0 "D54" V 4746 5471 50  0000 R CNN
+F 1 "1N4148" V 4655 5471 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4700 5375 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4700 5550 50  0001 C CNN
+	1    4700 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D55
+U 1 1 5EB8870B
+P 5300 5550
+F 0 "D55" V 5346 5471 50  0000 R CNN
+F 1 "1N4148" V 5255 5471 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5300 5375 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5300 5550 50  0001 C CNN
+	1    5300 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HKB44-rescue:1N4148-mod_1n148 D56
+U 1 1 5EB88715
+P 5900 5550
+F 0 "D56" V 5946 5471 50  0000 R CNN
+F 1 "1N4148" V 5855 5471 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5900 5375 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5900 5550 50  0001 C CNN
+	1    5900 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 5650 2300 5650
+Connection ~ 2900 5650
+Wire Wire Line
+	2900 5650 3500 5650
+Connection ~ 3500 5650
+Wire Wire Line
+	3500 5650 4100 5650
+Connection ~ 4100 5650
+Wire Wire Line
+	4100 5650 4700 5650
+Connection ~ 4700 5650
+Wire Wire Line
+	4700 5650 5300 5650
+Connection ~ 5300 5650
+Wire Wire Line
+	5300 5650 5900 5650
+Wire Wire Line
+	1900 5450 1900 6050
+Wire Wire Line
+	2500 5450 2500 6050
+Wire Wire Line
+	3100 5450 3100 6050
+Wire Wire Line
+	3700 5450 3700 6050
+Wire Wire Line
+	4300 5450 4300 6050
+Wire Wire Line
+	4900 5450 4900 6050
+Wire Wire Line
+	5500 5450 5500 6050
+Connection ~ 2300 5650
+Wire Wire Line
+	2300 5650 2900 5650
+Connection ~ 1900 5450
+Connection ~ 2500 5450
+Connection ~ 3100 5450
+Connection ~ 3700 5450
+Connection ~ 4300 5450
+Connection ~ 4900 5450
+Connection ~ 5500 5450
+Connection ~ 1900 4850
+Connection ~ 2500 4850
+Connection ~ 3100 4850
+Connection ~ 3700 4850
+Connection ~ 4300 4850
+Connection ~ 4900 4850
+Connection ~ 5500 4850
+Connection ~ 1900 3650
+Connection ~ 2500 3650
+Connection ~ 3100 3650
+Connection ~ 3700 3650
+Connection ~ 4300 3650
+Connection ~ 4900 3650
+Connection ~ 5500 3650
+$Comp
+L Switch:SW_Push SW25
+U 1 1 5EB5C6C9
+P 5100 2450
+F 0 "SW25" H 5100 2650 50  0000 C CNN
+F 1 "SW_Push" H 5100 2644 50  0001 C CNN
+F 2 "HKB44:MX_PCB_100H" H 5100 2650 50  0001 C CNN
+F 3 "" H 5100 2650 50  0001 C CNN
+	1    5100 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1250 1900 1000
+Connection ~ 1900 1250
+Wire Wire Line
+	2500 1250 2500 1000
+Connection ~ 2500 1250
+Wire Wire Line
+	3100 1250 3100 1000
+Connection ~ 3100 1250
+Wire Wire Line
+	3700 1250 3700 1000
+Connection ~ 3700 1250
+Wire Wire Line
+	4300 1250 4300 1000
+Connection ~ 4300 1250
+Wire Wire Line
+	4900 1000 4900 1250
+Connection ~ 4900 1250
+Wire Wire Line
+	5500 1250 5500 1000
+Connection ~ 5500 1250
+Text GLabel 9900 1650 0    50   Input ~ 0
+VCC
+Text GLabel 10500 1650 0    50   Input ~ 0
+GND
+Wire Wire Line
+	10000 1500 10000 1650
+Wire Wire Line
+	10000 1650 9900 1650
+NoConn ~ 6000 6850
+NoConn ~ 9300 3900
+Text GLabel 1550 6550 0    50   Input ~ 0
+VCC
+Text GLabel 1550 7150 0    50   Input ~ 0
+GND
+$Comp
+L LED:WS2812B LED1
+U 1 1 5CBD79E4
+P 1850 6850
+F 0 "LED1" H 2191 6896 50  0000 L CNN
+F 1 "WS2812B" H 2191 6805 50  0000 L CNN
+F 2 "library:LED_WS2812B-PLCC4" H 1900 6550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1950 6475 50  0001 L TNN
+	1    1850 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 6550 1850 6550
+Wire Wire Line
+	1550 7150 1850 7150
+Connection ~ 1850 7150
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5EC38C95
+P 10000 1500
+F 0 "#FLG0101" H 10000 1575 50  0001 C CNN
+F 1 "PWR_FLAG" H 10000 1673 50  0000 C CNN
+F 2 "" H 10000 1500 50  0001 C CNN
+F 3 "~" H 10000 1500 50  0001 C CNN
+	1    10000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5EC50F01
+P 10600 1500
+F 0 "#FLG0102" H 10600 1575 50  0001 C CNN
+F 1 "PWR_FLAG" H 10600 1673 50  0000 C CNN
+F 2 "" H 10600 1500 50  0001 C CNN
+F 3 "~" H 10600 1500 50  0001 C CNN
+	1    10600 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 1650 10600 1650
+Wire Wire Line
+	10600 1650 10600 1500
+Text GLabel 9300 4200 2    50   Input ~ 0
+VCC
+Text GLabel 9300 4000 2    50   Input ~ 0
+GND
+NoConn ~ 7900 4100
+Text GLabel 7900 4200 0    50   Input ~ 0
+GND
+$Comp
+L mylib:Arduino_pro_micro_conn J2
+U 1 1 5EC88007
+P 8600 4250
+F 0 "J2" H 8600 4847 60  0000 C CNN
+F 1 "Arduino_pro_micro_conn" H 8600 4741 60  0000 C CNN
+F 2 "library:Arduino_pro_micro_conn" H 8350 4250 60  0001 C CNN
+F 3 "" H 8350 4250 60  0001 C CNN
+	1    8600 4250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
