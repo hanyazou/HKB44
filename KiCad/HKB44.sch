@@ -233,35 +233,35 @@ Text GLabel 1700 5050 0    50   Input ~ 0
 ROW6
 Text GLabel 1700 5650 0    50   Input ~ 0
 ROW7
-Text GLabel 7900 3900 0    50   Input ~ 0
+Text GLabel 7900 4850 0    50   Input ~ 0
 COL0
-Text GLabel 9300 4800 2    50   Input ~ 0
+Text GLabel 9300 5750 2    50   Input ~ 0
 COL1
-Text GLabel 9300 4700 2    50   Input ~ 0
+Text GLabel 9300 5650 2    50   Input ~ 0
 COL2
-Text GLabel 9300 4600 2    50   Input ~ 0
+Text GLabel 9300 5550 2    50   Input ~ 0
 COL3
-Text GLabel 9300 4500 2    50   Input ~ 0
+Text GLabel 9300 5450 2    50   Input ~ 0
 COL4
-Text GLabel 9300 4400 2    50   Input ~ 0
+Text GLabel 9300 5350 2    50   Input ~ 0
 COL5
-Text GLabel 9300 4300 2    50   Input ~ 0
+Text GLabel 9300 5250 2    50   Input ~ 0
 COL6
-Text GLabel 7900 5000 0    50   Input ~ 0
+Text GLabel 7900 5950 0    50   Input ~ 0
 ROW0
-Text GLabel 7900 4900 0    50   Input ~ 0
+Text GLabel 7900 5850 0    50   Input ~ 0
 ROW1
-Text GLabel 7900 4800 0    50   Input ~ 0
+Text GLabel 7900 5750 0    50   Input ~ 0
 ROW2
-Text GLabel 7900 4700 0    50   Input ~ 0
+Text GLabel 7900 5650 0    50   Input ~ 0
 ROW3
-Text GLabel 7900 4600 0    50   Input ~ 0
+Text GLabel 7900 5550 0    50   Input ~ 0
 ROW4
-Text GLabel 7900 4500 0    50   Input ~ 0
+Text GLabel 7900 5450 0    50   Input ~ 0
 ROW5
-Text GLabel 7900 4400 0    50   Input ~ 0
+Text GLabel 7900 5350 0    50   Input ~ 0
 ROW6
-Text GLabel 7900 4300 0    50   Input ~ 0
+Text GLabel 7900 5250 0    50   Input ~ 0
 ROW7
 $Comp
 L LED:WS2812B LED2
@@ -318,7 +318,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5200 6475 50  0001 
 	1    5100 6850
 	1    0    0    -1  
 $EndComp
-Text GLabel 7900 4000 0    50   Input ~ 0
+Text GLabel 7900 4950 0    50   Input ~ 0
 LED
 Text GLabel 1550 6850 0    50   Input ~ 0
 LED
@@ -328,7 +328,7 @@ U 1 1 5CC0437A
 P 8550 1900
 F 0 "SW100" H 8550 2185 50  0000 C CNN
 F 1 "SW_Push" H 8550 2094 50  0000 C CNN
-F 2 "library:B3U-1000P(OMRON Ultra-small Tactile Switch)" H 8550 2100 50  0001 C CNN
+F 2 "library:push switch" H 8550 2100 50  0001 C CNN
 F 3 "" H 8550 2100 50  0001 C CNN
 	1    8550 1900
 	1    0    0    -1  
@@ -346,7 +346,7 @@ F 3 "" H 8750 1900 50  0001 C CNN
 $EndComp
 Text GLabel 8350 1900 0    50   Input ~ 0
 RST
-Text GLabel 9300 4100 2    50   Input ~ 0
+Text GLabel 9300 5050 2    50   Input ~ 0
 RST
 Wire Wire Line
 	2150 6850 2400 6850
@@ -396,9 +396,9 @@ Connection ~ 5100 6550
 Wire Wire Line
 	5700 7150 5100 7150
 Connection ~ 5100 7150
-Text GLabel 9300 5000 2    50   Input ~ 0
+Text GLabel 9300 5950 2    50   Input ~ 0
 SDA
-Text GLabel 9300 4900 2    50   Input ~ 0
+Text GLabel 9300 5850 2    50   Input ~ 0
 SCL
 Text GLabel 8450 2500 0    50   Input ~ 0
 SDA
@@ -494,7 +494,7 @@ U 1 1 5EB55DBC
 P 5700 1850
 F 0 "SW16" H 5700 2050 50  0000 C CNN
 F 1 "SW_Push" H 5700 2044 50  0001 C CNN
-F 2 "HKB44:MX_PCB_100H" H 5700 2050 50  0001 C CNN
+F 2 "HKB44:MX_PCB_200H" H 5700 2050 50  0001 C CNN
 F 3 "" H 5700 2050 50  0001 C CNN
 	1    5700 1850
 	1    0    0    -1  
@@ -1606,7 +1606,7 @@ U 1 1 5EB886B1
 P 3900 5450
 F 0 "SW73" H 3900 5650 50  0000 C CNN
 F 1 "SW_Push" H 3900 5644 50  0001 C CNN
-F 2 "HKB44:MX_PCB_100H" H 3900 5650 50  0001 C CNN
+F 2 "HKB44:MX_PCB_150H" H 3900 5650 50  0001 C CNN
 F 3 "" H 3900 5650 50  0001 C CNN
 	1    3900 5450
 	1    0    0    -1  
@@ -1817,7 +1817,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 1650 9900 1650
 NoConn ~ 6000 6850
-NoConn ~ 9300 3900
+NoConn ~ 9300 4850
 Text GLabel 1550 6550 0    50   Input ~ 0
 VCC
 Text GLabel 1550 7150 0    50   Input ~ 0
@@ -1864,22 +1864,66 @@ Wire Wire Line
 	10500 1650 10600 1650
 Wire Wire Line
 	10600 1650 10600 1500
-Text GLabel 9300 4200 2    50   Input ~ 0
+Text GLabel 9300 5150 2    50   Input ~ 0
 VCC
-Text GLabel 9300 4000 2    50   Input ~ 0
+Text GLabel 9300 4950 2    50   Input ~ 0
 GND
-NoConn ~ 7900 4100
-Text GLabel 7900 4200 0    50   Input ~ 0
+NoConn ~ 7900 5050
+Text GLabel 7900 5150 0    50   Input ~ 0
 GND
 $Comp
 L mylib:Arduino_pro_micro_conn J2
 U 1 1 5EC88007
-P 8600 4250
-F 0 "J2" H 8600 4847 60  0000 C CNN
-F 1 "Arduino_pro_micro_conn" H 8600 4741 60  0000 C CNN
-F 2 "library:Arduino_pro_micro_conn" H 8350 4250 60  0001 C CNN
-F 3 "" H 8350 4250 60  0001 C CNN
-	1    8600 4250
+P 8600 5200
+F 0 "J2" H 8600 5797 60  0000 C CNN
+F 1 "Arduino_pro_micro_conn" H 8600 5691 60  0000 C CNN
+F 2 "library:Arduino_pro_micro_conn" H 8350 5200 60  0001 C CNN
+F 3 "" H 8350 5200 60  0001 C CNN
+	1    8600 5200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x04_Male J3
+U 1 1 5EA577FD
+P 9950 2650
+F 0 "J3" H 10058 2931 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 10058 2840 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" H 9950 2650 50  0001 C CNN
+F 3 "~" H 9950 2650 50  0001 C CNN
+	1    9950 2650
+	1    0    0    -1  
+$EndComp
+Text GLabel 10150 2650 2    50   Input ~ 0
+USB_VBUS
+Text GLabel 10150 2550 2    50   Input ~ 0
+USB_GND
+Text GLabel 10150 2750 2    50   Input ~ 0
+UBS_DP
+Text GLabel 10150 2850 2    50   Input ~ 0
+USB_DM
+Text GLabel 10150 3800 2    50   Input ~ 0
+USB_DM
+Text GLabel 10150 3700 2    50   Input ~ 0
+UBS_DP
+Text GLabel 10150 3500 2    50   Input ~ 0
+USB_VBUS
+Text GLabel 9900 4200 2    50   Input ~ 0
+USB_GND
+$Comp
+L Connector:USB_B_Micro J4
+U 1 1 5EA7D1A2
+P 9850 3700
+F 0 "J4" H 9907 4167 50  0000 C CNN
+F 1 "USB_B_Micro" H 9907 4076 50  0000 C CNN
+F 2 "library:USB_Micro-B_Molex_47346-0001" H 10000 3650 50  0001 C CNN
+F 3 "~" H 10000 3650 50  0001 C CNN
+	1    9850 3700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9750 4100
+Wire Wire Line
+	9900 4200 9850 4200
+Wire Wire Line
+	9850 4200 9850 4100
+NoConn ~ 10150 3900
 $EndSCHEMATC
