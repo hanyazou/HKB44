@@ -3,4 +3,6 @@
   (lib (name HKB44-rescue)(type Legacy)(uri ${KIPRJMOD}/HKB44-rescue.lib)(options "")(descr ""))
   (lib (name ws2812c-2020)(type Legacy)(uri ${KIPRJMOD}/lib/WS2812C-2020.lib)(options "")(descr ""))
   (lib (name keyunit)(type Legacy)(uri ${KIPRJMOD}/lib/keyunit.lib)(options "")(descr ""))
+  (lib (name keyunit44-rescue)(type Legacy)(uri ${KIPRJMOD}/keyunit44-rescue.lib)(options "")(descr ""))
+  (lib (name keyunit2-rescue)(type Legacy)(uri ${KIPRJMOD}/keyunit2-rescue.lib)(options "")(descr ""))
 )
