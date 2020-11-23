@@ -43,7 +43,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
  //                        0   1   2   3   4   5   6   7
 #define MATRIX_ROW_PINS { B5, B4, E6, D7, C6, D4, D0, D1 }
-#define MATRIX_COL_PINS { D3, B3, B1, F7, F6, F5, F4 }
+#define MATRIX_COL_PINS { D3, F4, F5, F6, F7, B1, B3 }
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL*/
@@ -61,7 +61,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define RGB_DI_PIN D2
 #ifdef RGB_DI_PIN
-  #define RGBLED_NUM 7
+  #define RGBLED_NUM 14
   #define RGBLIGHT_HUE_STEP 8
   #define RGBLIGHT_SAT_STEP 8
   #define RGBLIGHT_VAL_STEP 8
