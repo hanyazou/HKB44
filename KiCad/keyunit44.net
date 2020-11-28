@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/takemura/workspace/github/HKB44/KiCad/keyunit44.sch)
-    (date "2020 November 08, Sunday 16:14:23")
+    (date "2020 November 28, Saturday 10:16:24")
     (tool "Eeschema (5.1.8-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -44,7 +44,7 @@
       (tstamp 5EA7D1A2))
     (comp (ref J2)
       (value Arduino_pro_micro_conn)
-      (footprint library:Arduino_pro_micro_conn)
+      (footprint library:Arduino_pro_micro_0.85mm)
       (libsource (lib keyunit44-rescue) (part Arduino_pro_micro_conn-mylib) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5EC88007))

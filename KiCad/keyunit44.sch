@@ -228,7 +228,7 @@ U 1 1 5EC88007
 P 8800 5200
 F 0 "J2" H 8800 5797 60  0000 C CNN
 F 1 "Arduino_pro_micro_conn" H 8800 5691 60  0000 C CNN
-F 2 "library:Arduino_pro_micro_conn" H 8550 5200 60  0001 C CNN
+F 2 "library:Arduino_pro_micro_0.85mm" H 8550 5200 60  0001 C CNN
 F 3 "" H 8550 5200 60  0001 C CNN
 	1    8800 5200
 	0    -1   -1   0   
